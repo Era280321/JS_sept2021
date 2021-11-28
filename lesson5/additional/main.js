@@ -55,7 +55,6 @@
 // [0,0,1,0]   => [1,0,0,0]
 
 
-debugger;
 let moveZeroes = function(arr) {
     let count = 0;
     for (let i = 0; i < arr.length; i++){
