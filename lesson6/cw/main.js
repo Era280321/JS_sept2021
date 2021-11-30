@@ -9,20 +9,21 @@
 // let n3 = 'Hermione Granger'
 //
 
-// let n1 = 'Harry..Potter'
-// let n2 = 'Ron---Whisley'
-// let n3 = 'Hermione__Granger'
-//
-// let name = (string, symbol) => {
-//     let newArr = [];
-//         let a = string.split(symbol)
-//         a.forEach((item) => {
-//             if (item) newArr.push(item);
-//         })
-//         return newArr.join(' ')
-// }
-//
-// console.log(name(n1,"."))
+let n1 = 'Harry....Potter'
+let n2 = 'Ron---Whisley'
+let n3 = 'Hermione__Granger'
+
+debugger;
+let name = (string, symbol) => {
+    let newArr = [];
+        let a = string.split(symbol)
+        a.forEach((item) => {
+            if (item) newArr.push(item);
+        })
+        return newArr.join(' ')
+}
+
+console.log(name(n1,"."))
 
 
 
