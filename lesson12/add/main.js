@@ -62,6 +62,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
             }
 
             userDiv.append(button)
+
             usersDiv.append(userDiv)
 
 
